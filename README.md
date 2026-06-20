@@ -95,6 +95,37 @@ These measures enable:
 - 🧾 Transaction Monitoring
 - 📈 Pricing Performance Evaluation
 - 📊 KPI-Based Business Reporting
+  
+---
+
+## 📅 Date Dimension
+
+A dedicated Date Dimension was created using DAX to enable time intelligence analysis, drill-down reporting, and trend-based insights.
+
+| Column | DAX Formula |
+|---------|------------|
+| Year | `YEAR([Date])` |
+| MonthNo | `MONTH([Date])` |
+| Month | `FORMAT([Date], "MMMM")` |
+| QuarterNo | `INT(([MonthNo] + 2) / 3)` |
+| Quarter | `"Qtr " & [QuarterNo]` |
+| Day | `DAY([Date])` |
+
+### 🎯 Business Purpose
+
+- 📈 Year-over-Year (YoY) Analysis
+- 📅 Month-wise Trend Tracking
+- 📊 Quarterly Performance Analysis
+- 🔍 Time-based Drill-down Reporting
+- 🌟 Seasonal Pattern Identification
+- 📉 Sales Trend Visualization
+
+### 💡 Key Benefits
+
+- Supports dynamic filtering and slicing
+- Enables hierarchical date navigation
+- Improves dashboard usability and reporting efficiency
+- Facilitates advanced time intelligence calculations  
 
 ## 🔍 Business Insights
 
