@@ -46,12 +46,6 @@ This project showcases an interactive **Motorola Sales Analytics Dashboard** bui
 
 ---
 
-## 📷 Dashboard Preview
-
-Dashboard screenshots are available in the repository under the **Screenshots** folder.
-
----
-
 ## 🎯 Project Objective
 
 The objective of this project is to demonstrate Power BI skills in:
